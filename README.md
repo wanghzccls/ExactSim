@@ -34,12 +34,12 @@ make
 
 
 ## Parameters:
-- -d <dataset> 
-- -f <filelabel>
-- -algo <algorithm>
-- [-e <epsilon> (default 0.001)]
-- [-qn <querynum> (default 50)]
-- [-c <damping factor> (default 0.6)]
+- -d \<dataset\> 
+- -f \<filelabel\>
+- -algo \<algorithm\>
+- [-e \<epsilon\> (default 0.001)]
+- [-qn \<querynum\> (default 50)]
+- [-c \<damping factor\> (default 0.6)]
 
 
 ## Run the example:
