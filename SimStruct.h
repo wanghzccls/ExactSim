@@ -424,7 +424,7 @@ class SimStruct{
     double* scores = new double[vert];
     double* nextScores = new double[vert];
     double* d = new double[vert];//matrix D
-    double** ulevelscores =new double*[targetlevel];
+    double** ulevelscores =new double*[targetlevel+1];
     double* simrank = new double[vert];
     double alpha = 1 - sqrtC;//teleport probability in PPR computation
     long nr_pre = power_walk_num;//thesampling number in total
